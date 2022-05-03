@@ -196,7 +196,7 @@ main {
     grid-row: span 3;
   }
   .dashboard .profile {
-    height: 43%;
+    height: 30%;
   }
 }
 @media only screen and (max-width: 53.125em) {
@@ -212,14 +212,19 @@ main {
     height: 250px;
   }
   .dashboard .profile {
-    height: 68%;
+    height: 70%;
     display: flex;
     align-items: center;
     gap: 20px;
   }
   .dashboard .profile img {
     margin: 0;
+    width: 40%;
   }
+  .dashboard .profile div h1{
+    font-size: 2rem;
+  }
+ 
   .dashboard .buttons-group {
     padding: 20px 50px 20px;
     height: 32%;
